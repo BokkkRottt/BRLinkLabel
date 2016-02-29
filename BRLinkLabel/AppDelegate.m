@@ -19,7 +19,7 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     //!代码创建
     NSRect frame = NSMakeRect(115, 100, 250, 70);
-    NSAttributedString * attString = [[NSAttributedString alloc] initWithString:@"超链接2" attributes:@{NSLinkAttributeName: @"http://cocoachina.com", NSForegroundColorAttributeName:[NSColor keyboardFocusIndicatorColor]}];
+    NSAttributedString * attString = [[NSAttributedString alloc] initWithString:@"超链接2" attributes:@{NSLinkAttributeName: @"https://github.com/BokkkRottt/BRLinkLabel", NSForegroundColorAttributeName:[NSColor keyboardFocusIndicatorColor]}];
     BRLinkLabel * linkLabel = [[BRLinkLabel alloc] initWithFrame:frame attibutedString:attString];
     linkLabel.showBackground = YES;
     [self.window.contentView addSubview:linkLabel];
